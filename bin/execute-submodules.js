@@ -48,10 +48,9 @@ glob("**/package.json", options, function (er, files) {
       process.exit(1);
     }
   });
-  console.log('END');
   process.exit(0);
 })
 
 process.on('exit', function() {
-    console.log("EXIT");
+  console.log('END');
 });
