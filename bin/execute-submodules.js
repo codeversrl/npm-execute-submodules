@@ -36,10 +36,10 @@ glob("**/package.json", options, function (er, files) {
         let opts = {};
         opts.cwd = path;
         let res = spawnSync(args[0], args.slice(1), opts);
-        if(res.sterr){
+        if(res.sterr && res.sterr.toString().length>0){
           console.log('Executing "%s" in "%s"...', commandLine, path);
           console.log('ERROR:', res.stderr.toString());
-        } else if(res.stdout){
+        } else if(res.stdout && res.stout.toString().length>0){
           console.log('Executing "%s" in "%s"...', commandLine, path);
           console.log('RESULT:', res.stdout.toString());
         }
