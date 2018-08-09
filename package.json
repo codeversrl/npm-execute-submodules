@@ -1,0 +1,17 @@
+{
+  "name": "@packagism/execute-submodules",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bin/execute-submodules.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "execute-submodules": "./bin/execute-submodules.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "meow": "^5.0.0"
+  }
+}
