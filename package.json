@@ -1,16 +1,30 @@
 {
-  "name": "@codever/execute-submodules",
+  "name": "@codever/npm-execute-submodules",
   "version": "1.0.0",
-  "description": "",
+  "description": "run npm commands for all your submodules",
+  "keywords": [
+    "execute",
+    "submodules",
+    "scripts",
+    "command",
+    "nested"
+  ],
+  "license": "MIT",
+  "author": "Codever srl <info@codever.it> (https://codever.it)",
+  "contributors" : [
+    "Alberto Colella <alberto.colella@codever.it> (https://github.com/albertocolella)"
+  ],
   "main": "bin/execute-submodules.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "bin": {
     "execute-submodules": "./bin/execute-submodules.js"
   },
-  "author": "",
-  "license": "ISC",
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/codever/execute-submodules.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "dependencies": {
     "meow": "^5.0.0"
   }
