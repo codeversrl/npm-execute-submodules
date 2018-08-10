@@ -22,17 +22,13 @@ options.cwd = process.cwd();
 options.root = path.resolve(options.cwd, "/");
 
 glob("**/package.json", options, function (er, files) {
-  // console.log('FILE:', files, args);
-  // console.log("CLI INPUT", cli.input);
   let commandLine = args.join(' ');
-  // console.log('commandLine:', commandLine);
   files.map((file)=>{
     try {
       let path = file.replace('package.json', '');
         if(!path || path.length==0){
             path = ".";
         }
-      // console.log('Moving to "%s"...', path);
         let opts = {};
         opts.cwd = path;
         let res = spawnSync(args[0], args.slice(1), opts);

@@ -1,5 +1,5 @@
 {
-  "name": "@codeversrl/npm-execute-submodules",
+  "name": "@codever/npm-execute-submodules",
   "version": "1.0.0",
   "description": "run npm commands for all your submodules",
   "keywords": [
