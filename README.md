@@ -1,4 +1,4 @@
-# Execute NPM Submodules
+# NPM Execute Submodules
 
 [![npm (scoped)](https://img.shields.io/npm/v/@codever/npm-execute-submodules.svg?style=plastic)](https://www.npmjs.com/package/@codever/npm-execute-submodules)
 
