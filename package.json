@@ -1,5 +1,5 @@
 {
-  "name": "@codever/npm-execute-submodules",
+  "name": "@codeversrl/npm-execute-submodules",
   "version": "1.0.0",
   "description": "run npm commands for all your submodules",
   "keywords": [
@@ -20,7 +20,7 @@
   },
   "repository" : {
     "type" : "git",
-    "url" : "https://github.com/codever/execute-submodules.git"
+    "url" : "https://github.com/codeversrl/npm-execute-submodules.git"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
