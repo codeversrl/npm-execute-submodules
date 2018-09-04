@@ -13,7 +13,7 @@ If those submodules have an updated version with new migrations or new tests, yo
 ### Why not using npm explore?
 
 `npm explore` is a very great tool, but it only calls one module at a time.
-If you need to execute the same command on all your submodules, you should call `npm explore` for each on of them.
+If you need to execute the same command on all your submodules, you should call `npm explore` for each one of them.
 
 ## Installation
 
