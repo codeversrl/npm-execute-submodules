@@ -28,6 +28,6 @@
   "dependencies": {
     "app-root-path": "^2.2.1",
     "glob": "^7.1.5",
-    "meow": "^5.0.0"
+    "meow": "^13.2.0"
   }
 }
